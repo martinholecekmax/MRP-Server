@@ -14,4 +14,7 @@ The MRP Server uses [JDBC DriverManager](https://dev.mysql.com/doc/connector-j/5
 private final String PASSWORD = "password";
 private final String USERNAME = "user";
 ```
-Be aware that these credentials are **not the same** as the previously described credentials stored in database inside the **mailbox table**. The credentials are described here are the creadentials for the **phpMyAdmin account** which serves to control **MySQL server**. The way how to create a MySQL account in phpMyAdmin can be found [here](https://docs.phpmyadmin.net/en/latest/privileges.html).
+Be aware that these credentials are **not the same** as the previously described credentials stored in database inside the **mailbox table**. The credentials are described here are the credentials for the **phpMyAdmin account** which serves to control **MySQL server**. The way how to create a MySQL account in phpMyAdmin can be found [here](https://docs.phpmyadmin.net/en/latest/privileges.html).
+
+## Usage of the MRP Protocol
+The [RFC100344605.pdf](https://github.com/martinholecekmax/MRP-Server/blob/master/RFC100344605.pdf) document contains details of the MRP Protocol and includes operations that can be performed such as creating mailboxes, authentication, checking for new messages, permanently removing messages, searching and fetching specific messages and many others.
