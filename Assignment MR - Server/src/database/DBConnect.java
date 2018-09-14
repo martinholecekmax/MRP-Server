@@ -16,7 +16,7 @@ public class DBConnect {
 	} 
 
 	private static final ServerType SERVER = ServerType.LOCAL_HOST;
-	private final String PASSWORD = "DcMriSnsJwiKquLo";
+	private final String PASSWORD = "password";
 	private final String USERNAME = "user";
 	private Connection connection;
 	private boolean verbose;
